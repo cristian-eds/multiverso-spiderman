@@ -1,6 +1,7 @@
 @import url('../css/reset.css');
 @import url('../css/global.css');
 @import url('components/_navigator.css');
+@import url('components/_pilss.css');
 
 .s-wrapper {
     display: flex;
@@ -45,6 +46,23 @@
 .s-main-content__top .s-logo img {
     margin-top: 2.5rem;
     margin-left: 0;
-    margin-top: 2rem;
+    margin-bottom: 2rem;
 }
+
+.s-description {
+    background-color: rgba(0, 0, 0, .7);
+    max-width: 50%;
+    padding: 1.25rem;
+    border-radius: 0.625rem;
+}
+
+.s-description .s-description__text p {
+    color: #fff;
+    line-height: 170%;
+}
+
+.s-description .pills {
+    margin-bottom: 1.25rem;
+}
+
 
